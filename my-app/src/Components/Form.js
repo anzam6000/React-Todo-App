@@ -2,8 +2,7 @@ import React from "react";
 
 const Form = ({ setInputText,todos,setTodos,inputText }) => {
     //Here I can write javascript code and function
-    const inputTextHandler = (e) => {
-      console.log(e.target.value);  
+    const inputTextHandler = (e) => { 
       setInputText(e.target.value);
     };
     const submitTodoHandler = (e) => {
